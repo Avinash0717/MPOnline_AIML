@@ -55,7 +55,8 @@ dist/
 # -----------------------------
 # Temporary Files
 # -----------------------------
-# Temporary Files
-# -----------------------------
 *.tmp
 *.temp
+
+# Large generated model
+movie-recommendation-system/models/similarity.pkl

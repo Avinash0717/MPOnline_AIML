@@ -1,5 +1,21 @@
-
 # User Manual
+
+---
+
+
+
+# IMPORTANT
+
+The models folder does not contain similarity.pkl due to its file size being larger than 100mb, **RUN THE NOTEBOOK ONCE, JUST DO THE RUN ALL**. The notebook will regenerate:
+
+- movies.pkl
+- similarity.pkl
+
+These files are required to run the Streamlit application.
+
+---
+
+
 
 # Movie Recommendation System
 
@@ -142,6 +158,16 @@ Install the dependencies.
 ```bash
 pip install -r requirements.txt
 ```
+
+---
+
+
+
+## Step 5
+
+Run the notebook movie_recommendation.ipynb.
+
+This will generate the models.
 
 ---
 
