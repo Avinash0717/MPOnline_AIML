@@ -1,0 +1,43 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment Files
+.env
+
+# Generated Vector Database
+vectorstore/
+
+# HuggingFace Cache (if created inside project)
+.cache/
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
+
+# Python Packaging
+build/
+dist/
+*.egg-info/
+
+# Streamlit Cache
+.streamlit/secrets.toml
